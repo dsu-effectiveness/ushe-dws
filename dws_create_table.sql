@@ -1,4 +1,7 @@
-create table USHE_DWS (
+--run to recreate table if needed
+drop table ushe_dws;
+
+create table ushe_dws (
     D_Inst varchar2(4),
     D_SSN varchar2(15),
     D_Banner_ID varchar2(6),
@@ -11,7 +14,3 @@ create table USHE_DWS (
     Submission_DT date,
     Return_DT date
 );
-
-
-
-
