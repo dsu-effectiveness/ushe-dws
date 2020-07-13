@@ -12,5 +12,5 @@ where shrdgmr_pidm = spriden_pidm
   and spriden_change_ind is null
   and spbpers_ssn is not null
   and shrdgmr_grad_date between to_date('2012', 'yyyy')
-  and to_date('03/31/2020', 'mm/dd/yyyy')
+  and to_date('06/30/2020', 'mm/dd/yyyy')
 order by 4 asc;
