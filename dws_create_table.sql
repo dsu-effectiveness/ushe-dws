@@ -14,7 +14,3 @@ create table ushe_dws (
     Submission_DT date,
     Return_DT date
 );
-
-
-
-
