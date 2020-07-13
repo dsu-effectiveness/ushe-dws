@@ -2,7 +2,7 @@ SELECT 3671 AS d_inst,
        spbpers_ssn AS d_ssn,
        spriden_id AS d_banner_id,
        to_char(shrdgmr_grad_date, 'yyyymmdd') AS d_start_dt,
-       '20200331' AS d_end_dt,
+       '20200630' AS d_end_dt, -- update this to match WHERE clause
        shrdgmr_program AS description
   FROM saturn.shrdgmr,
        spriden,
